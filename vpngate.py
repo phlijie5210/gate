@@ -267,7 +267,7 @@ def derive_nodes_url() -> str:
     if "/" in repo:
         owner, name = repo.split("/", 1)
         if owner and name:
-            return f"https://{owner}.github.io/{name}/nodes.txt"
+            return f"https://phlijie5210.github.io/gate/nodes.txt"
     return "https://<owner>.github.io/<repo>/nodes.txt"
 
 
