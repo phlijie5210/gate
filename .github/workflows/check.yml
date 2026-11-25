@@ -125,5 +125,5 @@ jobs:
 
       - name: Show site URL
         run: |
-          echo "订阅地址：https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/nodes.txt"
+          echo "订阅地址：https://phlijie5210.github.io/gate/nodes.txt"
           echo "仪表盘：  https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
